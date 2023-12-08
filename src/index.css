@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Chicago';
+    src: url('./fonts/ChiKareGo2.ttf');
+}
+
+@font-face {
+    font-family: 'FindersKeepers';
+    src: url('./fonts/FindersKeepers.ttf');
+}
+
+.wrapper {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.standard-dialog {
+    font-family: 'Chicago';
+    text-align: center;
+}
+
+.details-bar, .window-pane {
+    font-family: 'Chicago';
+}

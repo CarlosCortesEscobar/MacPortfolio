@@ -3,21 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/src/index.css">
     <link rel="stylesheet" href="https://unpkg.com/@sakun/system.css" />
+    <link rel="stylesheet" href="/src/index.css">
     <title>Portfolio.app</title>
 </head>
 <body>
-    <div class="window">
-        <div class="title-bar">
-        <button aria-label="Close" class="close"></button>
-        <h1 class="title">Carlos Cortes Escobar</h1>
-        <button aria-label="Resize" class="resize"></button>
-    </div>
-    <div class="separator"></div>
-    <div class="window-pane">
-        Woo I got stuff in me!
+    <div class="wrapper">
+
+        <div class="window" style="width: 500px; height: 500px;">
+            <div class="title-bar">
+                <button aria-label="Close" class="close"></button>
+                <h1 class="title">Carlos Cortes Escobar</h1>
+                <button aria-label="Resize" class="resize"></button>
+            </div>
+            <div class="details-bar">
+                <span>5 items</span>
+                <span>999k in disk</span>
+                <span>1k available</span>
+            </div>
+            
+            <div class="window-pane">
+                <ul role="menu-bar">
+                    <li role="menu-item" tabindex="0" aria-haspopup="true">
+                        Projects
+                        <ul role="menu">
+                            <li role="menu-item"><a href="">This Portfolio</a></li>
+                            <li role="menu-item"><a href="https://github.com/SWoinowsky/ProjectTeamPlus">Steam Info Nexus</a></li>
+                            <li role="menu-item" class="divider"><a href="https://oregonturtles.org/">OregonTurtles</a></li>
+                            <li role="menu-item"><a href="">Favorite</a></li>
+                        </ul>
+                    </li>
+                    <li role="menu-item" tabindex="0" aria-haspopup="false"><a target="_blank" href="https://github.com/CarlosCortesEscobar">GitHub</a></li>
+                    <li role="menu-item" tabindex="0" aria-haspopup="false"><a target="_blank" href="https://www.linkedin.com/in/carcoresc/">LinkedIn</a></li>
+                    <li role="menu-item" tabindex="0" aria-haspopup="false"><a target="_blank" href="mailto: daengekky77@gmail.com">Email</a></li>
+                    <li role="menu-item" tabindex="0" aria-haspopup="false"><a target="_blank" href="./src/Resume.pdf">Resume</a></li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    
+
+    <div class="standard-dialog center scale-down" style="width:30rem;">
+        <h1 class="dialog-text">MacOS Portfolio, Version 1.0  (<span id="date">(DD Mon YY)</span>)</h1>
+        <p class="dialog-text">&copy; 1984 Apple Computer</p>
     </div>
     </div>
 </body>
+<script src="/src/index.js"></script>
 </html>
