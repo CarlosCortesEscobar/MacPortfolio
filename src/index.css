@@ -23,3 +23,25 @@
 .details-bar, .window-pane {
     font-family: 'Chicago';
 }
+
+.save-icon {
+    padding-bottom: 0px;
+    height: 20px;
+}
+
+.bomb {
+    width: fit-content;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    transform: translate(42%, 50%);
+}
+
+.bomb-img {
+    width: fit-content;
+}
+
+.mundus {
+    margin-top: 10px;
+    font-size: 2rem;
+}
